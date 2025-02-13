@@ -1,6 +1,12 @@
 // Main.jsx
 export default function Main() {
     return (
-        <main><h1>aaaaaa</h1> </main>
-    );
+        <main>
+            <div >
+                <div >
+                    {">"} Content goes here {"<"}
+                </div>
+            </div>
+        </main>
+    )
 }
