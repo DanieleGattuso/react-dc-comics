@@ -5,6 +5,7 @@
 }
 
 
+
 /* Header */
 a {
   text-decoration: none;
@@ -45,4 +46,44 @@ a {
   justify-content: center;
 
 
+}
+
+
+.main_container {
+
+  background-color: black;
+
+
+}
+
+.main_container h3 {
+
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+
+}
+
+.pic_container {
+
+  background-color: rgb(38, 151, 249);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos_container {
+
+
+  width: 13%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+
+}
+
+.logos_container p {
+
+  color: white;
 }
