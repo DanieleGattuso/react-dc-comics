@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 
+ul {
 
+  list-style: none;
+
+}
 
 /* Header */
 a {
@@ -85,5 +89,48 @@ a {
 
 .logos_container p {
 
+  color: white;
+}
+
+
+/* FOOTER */
+
+.footer_container {
+  width: 100%;
+  background-image: url(../public/img/footer-bg.jpg);
+  background-size: cover;
+  display: flex;
+}
+
+.footer_links_container {
+
+  width: 50%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+}
+
+.footer_logo_container {
+  width: 50%;
+  /* background-color: rgb(148, 25, 130); */
+}
+
+.tiny_container {
+
+  /* background-color: aqua; */
+  width: 15%;
+  margin-left: 20px;
+
+}
+
+.tiny_container ul li {
+
+  color: grey;
+
+}
+
+span {
+
+  font-size: 20px;
   color: white;
 }
