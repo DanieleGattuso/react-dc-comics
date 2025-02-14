@@ -47,7 +47,11 @@ function App() {
     <>
       <Header />
       <Main />
-      <Footer />
+      <Footer
+        appCategory1={categoryLinks1}
+        appCategory2={categoryLinks2}
+        appCategory3={categoryLinks3}
+        appCategory4={categoryLinks4} />
     </>
   )
 }

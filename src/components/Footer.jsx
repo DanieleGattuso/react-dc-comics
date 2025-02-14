@@ -1,4 +1,6 @@
-export default function Footer() {
+export default function Footer(props) {
+    const { appCategory1, appCategory2, appCategory3, appCategory4 } = props;
+
     return (
         <footer>
             <div className="footer_container">
@@ -7,13 +9,7 @@ export default function Footer() {
                     <div className="tiny_container">
                         <ul>
                             <li><span>DC COMICS</span></li>
-                            <li>Characters</li>
-                            <li>Comics</li>
-                            <li>Movies</li>
-                            <li> TV</li>
-                            <li>Games</li>
-                            <li>Videos</li>
-                            <li>News</li>
+                            {appCategory1.map((category) => <li key={category.id}>{category.text}</li>)}
                         </ul>
 
                         <ul>
