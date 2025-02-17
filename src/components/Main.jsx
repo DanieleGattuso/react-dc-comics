@@ -1,10 +1,13 @@
+import ProductsList from "./products/ComicsCard.jsx";
+
 // Main.jsx
 export default function Main() {
     return (
         <main>
+
             <div >
                 <div className="main_container">
-                    <h3>-- Content goes here --</h3>
+                    <ProductsList />
                 </div>
                 <div className="pic_container">
 
